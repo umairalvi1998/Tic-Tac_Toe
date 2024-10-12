@@ -4,6 +4,13 @@ public class Move {
     private Player player;
     private Cell cell;
 
+    //To make a move,a player and a cell is required
+    public Move(Player player, Cell cell) {
+        this.player = player;
+        this.cell = cell;
+    }
+
+
     public Player getPlayer() {
         return player;
     }
